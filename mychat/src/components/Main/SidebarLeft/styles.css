@@ -1,0 +1,30 @@
+.sidebarLeft{
+    width:200px;
+    border-right: 1px solid darkgray;
+    overflow: auto;
+}
+.channel h3{
+    padding: 0;
+    margin: 0;
+}
+.channel{
+    display:flex;
+    align-items: center;
+    height:60px;
+    border-bottom: 1px solid darkgray;
+    cursor: pointer;
+    background-color: ghostwhite;
+
+}
+.channel:hover{
+    background-color: darkgray;
+}
+.active{
+    background-color: dimgray;
+}
+.channel img{
+    border-radius: 50%;
+    width:40px;
+    height: 40px;
+    margin: 10px;
+}

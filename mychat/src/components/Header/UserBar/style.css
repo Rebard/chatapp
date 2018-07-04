@@ -1,0 +1,17 @@
+.userBar{
+    display: flex;
+    align-items: center;
+    padding:10px;
+    position: relative;
+}
+.userBar img {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin: 10px
+}
+.btnLogin{
+    color:#1fa67a;
+    font-size:20px;
+    cursor: pointer;
+}

@@ -1,0 +1,45 @@
+.userForm{
+    position: absolute;
+    top:100%;
+    left:-162.031px;
+    width:300px;
+    z-index: 10;
+}
+.userForm form{
+    display: flex;
+    flex-direction:column;
+    align-items: flex-end;
+    width:100%;
+    border:1px solid darkgray;
+}
+.userForm input{
+    outline: none;
+    padding:7px;
+    margin:10px;
+    border-radius: 5px;
+}
+.btnRegister{
+    display:flex;
+    justify-content: flex-end;
+}
+.btnRegister button{
+    padding: 10px;
+    margin:5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.btnSignIn{
+    background-color: #1fa67a;
+    color:white;
+}
+.btnCreateAcc{
+    background-color: #eeeeee;
+    color:#222;
+}
+.err{
+    padding:10px;
+    width:100%;
+    color:white;
+    background: red;
+}

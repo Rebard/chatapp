@@ -1,0 +1,22 @@
+.sidebarRight{
+    width:300px;
+    border-left:1px solid darkgray;
+    padding:10px;
+}
+.user h3{
+    margin:0;
+}
+.user span{
+    font-size:12px;
+}
+.user{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width:100%;
+}
+.user img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}

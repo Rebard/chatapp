@@ -1,0 +1,42 @@
+.chat{
+    height: 85%;
+    overflow:auto;
+}
+.messages{
+    display: flex;
+}
+
+.messages img{
+    border-radius: 50%;
+    height:50px;
+    width:50px;
+    margin:10px
+}
+p{
+    display: block;
+    border-radius: 5%;
+    padding:10px;
+    background: rgb(184,198,223);
+    background: -moz-linear-gradient(top, rgba(184,198,223,1) 0%, rgba(109,136,183,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(184,198,223,1) 0%,rgba(109,136,183,1) 100%);
+    background: linear-gradient(to bottom, rgba(184,198,223,1) 0%,rgba(109,136,183,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b8c6df', endColorstr='#6d88b7',GradientType=0 );
+}
+.mine{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.mine p{
+    background: rgb(63,76,107);
+    background: -moz-linear-gradient(top, rgba(63,76,107,1) 0%, rgba(63,76,107,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(63,76,107,1) 0%,rgba(63,76,107,1) 100%);
+    background: linear-gradient(to bottom, rgba(63,76,107,1) 0%,rgba(63,76,107,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', endColorstr='#3f4c6b',GradientType=0 );
+}
+
+.chat::-webkit-scrollbar-track, .chat::-webkit-scrollbar-thumb {
+   display: none;
+}
+.chat:hover::-webkit-scrollbar-thumb{
+    display: block;
+}

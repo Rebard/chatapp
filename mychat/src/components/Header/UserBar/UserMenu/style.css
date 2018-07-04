@@ -1,0 +1,15 @@
+.userMenu{
+    display:flex;
+    position:absolute;
+    flex-direction: column;
+    top:100%;
+    width:200px;
+    right:0;
+}
+.itemMenu{
+    display: flex;
+    justify-content: center;
+    padding:10px;
+    width:100%;
+    background: gray;
+}

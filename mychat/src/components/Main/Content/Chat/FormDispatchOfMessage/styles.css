@@ -1,0 +1,27 @@
+#formSend{
+    display: flex;
+    height:15%;
+    width:100%;
+    border-top:1px groove darkgray;
+}
+.fa:before{
+    cursor: pointer;
+}
+#formSend textarea{
+    flex-grow:1;
+    padding:10px;
+    outline: none;
+    outline: 0;
+    min-height: 36px;
+    resize: none;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-radius: 6px;
+    line-height: 17px;
+    margin:5px 5px 0 5px;
+}
+#formSend .butSubmit{
+    display: flex;
+    align-items: center;
+    padding:10px;
+}
